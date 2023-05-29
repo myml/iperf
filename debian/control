@@ -1,0 +1,21 @@
+Source: iperf3
+Section: net
+Priority: optional
+Maintainer: myml <wurongjie1@gmail.org>
+Build-Depends: debhelper-compat (= 13), autotools-dev
+Standards-Version: 4.6.0
+Homepage: https://github.com/esnet/iperf
+Vcs-Git: https://github.com/esnet/iperf.git
+Rules-Requires-Root: no
+
+Package: iperf3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Internet Protocol bandwidth measuring tool
+  Iperf3 is a tool for performing network throughput measurements. It can
+  test either TCP or UDP throughput.
+  .
+  This is a new implementation that shares no code with the original
+  iperf from NLANR/DAST and also is not backwards compatible.
+  .
+  This package contains the command line utility.

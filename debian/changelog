@@ -1,0 +1,49 @@
+iperf3 (3.13-1) unstable; urgency=medium
+
+  * Cleanup endian handling on OpenBSD.
+    Thanks to Brad Smith
+  * Add support for OpenBSD systems which have TCP_INFO implemented.
+    Thanks to Brad Smith
+  * config/iperf_config_static_bin.m4: fix bashism
+    Thanks to Sam James
+  * Add missing build dependencies; drop EL5; remove outdated %changelog section.
+    Thanks to Mark Feit
+  * Version updates for iperf3 Web site.
+    Thanks to Bruce A. Mah
+  * Update manual page on Web site.
+    Thanks to Bruce A. Mah
+  * Minor changes to .gitignore and error messages (#1408)
+    Thanks to David Bar-On
+  * Added missing bind_dev getter and setter.
+    Thanks to WatcherOfTheSkies
+  * Made it const char*
+    Thanks to WatcherOfTheSkies
+  * Patch for setting TOS in mapped v4
+    Thanks to Sarah Larsen
+  * Add debug output in iperf_server_api
+    Thanks to Sarah Larsen
+  * add bidir flag to json
+    Thanks to Johann Hackler
+  * Version number bump post 3.12 release.
+    Thanks to Bruce A. Mah
+  * Regen (using tools on macOS installed via Homebrew)
+    Thanks to Bruce A. Mah
+  * Add fq-rate to JSON output
+    Thanks to Sarah Larsen
+  * doc: Update binary download links and text.
+    Thanks to Bruce A. Mah
+  * Add getter for test bidirectional
+    Thanks to Carl Wieland
+  * a fix for A resource leak bug in function iperf_create_pidfile (#1443)
+    Thanks to Afterrain-XS
+  * doc: Fix copy-and-paste error leading to wrong error message.
+    Thanks to Bruce A. Mah
+  * Fix crash on rcv-timeout with JSON logfile (#1463)
+    Thanks to David Bar-On
+  * Release engineering changes for iperf-3.13 (#1472)
+    Thanks to swlars
+  * Regen.
+    Thanks to Bruce A. Mah
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 29 May 2023 11:18:03 +0800
+
